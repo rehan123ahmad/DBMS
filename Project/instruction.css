@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-5xl: 24px;
+  
+    /* Colors */
+    --color-gray-100: rgba(0, 0, 0, 0.25);
+    --color-gray-200: rgba(0, 0, 0, 0.65);
+  
+    /* Border radiuses */
+    --br-mini: 15px;
+  }
+  
+
+.get-started-with {
+    position: absolute;
+    top: 13px;
+    left: 23px;
+    font-size: 48px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    width: 697px;
+    height: 70px;
+  }
+  .instructions-child {
+    position: absolute;
+    top: 121px;
+    left: 530px;
+    border-radius: var(--br-mini);
+    background-color: #fafafa;
+    filter: blur(4px);
+    width: 860px;
+    height: 100vh;
+  }
+  .fill-all-the {
+    margin-block-start: 0;
+    margin-block-end: 31px;
+  }
+  .click-on-submit {
+    margin: 0;
+    top: -12px;
+    position: inherit;
+  }
+  .fill-all-the-container {
+    position: absolute;
+    top: 222px;
+    left: 545px;
+    font-weight: 600;
+    display: inline-block;
+    width: 734px;
+  }
+  .instructions-inner,
+  .instructions-item {
+    position: absolute;
+    top: 577.5px;
+    left: 544.5px;
+    border-top: 1px solid var(--color-gray-100);
+    box-sizing: border-box;
+    width: 831px;
+    height: 1px;
+  }
+  .instructions-inner {
+    top: 707.5px;
+  }
+  .note-this-application-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    white-space: pre;
+    display: inline-block;
+    width: 830px;
+    height: 97px;
+  }
+  .vector-icon {
+    position: absolute;
+    height: 21.65%;
+    width: 2.65%;
+    top: 2.06%;
+    right: 97.35%;
+    bottom: 76.29%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .note-this-application-is-onl-parent,
+  .rectangle-div {
+    position: absolute;
+    top: 597px;
+    left: 545px;
+    width: 830px;
+    height: 97px;
+  }
+  .rectangle-div {
+    top: 727px;
+    left: 865px;
+    border-radius: var(--br-mini);
+    background-color: rgba(217, 217, 217, 0.46);
+    border: 5px solid rgba(190, 185, 185, 0.65);
+    box-sizing: border-box;
+    width: 178px;
+    height: 39px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+  .instructions1,
+  .proceed {
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+  .proceed {
+    top: 701px;
+    left: 760px;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    width: 399px;
+    height: 90px;
+  }
+  .instructions1 {
+    top: 140px;
+    left: 555px;
+    font-size: 40px;
+    font-weight: 800;
+    width: 559px;
+    height: 70px;
+  }
+  .heres-a-quick {
+    position: absolute;
+    top: 83px;
+    left: 611px;
+    font-weight: 600;
+    display: inline-block;
+    width: 697px;
+    height: 38px;
+  }
+  .instructions {
+    position: relative;
+    width: 100%;
+    height: 790px;
+    overflow: hidden;
+    background-image: url(./images/instructBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-gray-200);
+    font-family: var(--font-inter);
+  }
+  
