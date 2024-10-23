@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-21xl: 40px;
+  }
+  
+.result-child {
+    position: absolute;
+    top: 69px;
+    left: 495px;
+    background-color: #fafafa;
+    filter: blur(4px);
+    width: 860px;
+    height: 860px;
+  }
+  .results {
+    position: absolute;
+    top: 97px;
+    left: 520px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    width: 157px;
+    height: 54px;
+  }
+  .result-item {
+    position: absolute;
+    top: 292.5px;
+    left: 879.5px;
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    width: 201px;
+    height: 1px;
+  }
+  .next {
+    font-family: var(--font-inria-sans);
+  }
+  .next {
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 673px;
+    left: 591px;
+    font-size: var(--font-size-5xl);
+    font-weight: 700;
+    color: #b0a7a7;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 603px;
+    height: 57px;
+  }
+  .the-total-number,
+  .the-total-number1 {
+    position: absolute;
+    top: 206px;
+    left: 523px;
+    font-weight: 800;
+    display: inline-block;
+    width: 805px;
+  }
+  .the-total-number {
+    color: #000;
+    height: 255px;
+  }
+  .the-total-number1 {
+    color: rgba(0, 0, 0, 0.65);
+    height: 107px;
+  }
+  .result {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    background-image: url(./images/instructBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: rgba(0, 0, 0, 0.83);
+    font-family: var(--font-inter);
+  }
+  
